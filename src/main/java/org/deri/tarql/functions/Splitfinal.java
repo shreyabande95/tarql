@@ -48,6 +48,10 @@ static {
 public Splitfinal() {
 	super();
 }
+// function is used to create custom property function, by modifiying implementation of apf:strSplit, as desired output.
+	// source: https://jena.apache.org/documentation/query/writing_propfuncs.html
+	// source: https://github.com/apache/jena/blob/eb4b5b6893c1fe9647251167e79ab082c892f28a/jena-arq/src/main/java/org/apache/jena/sparql/pfunction/library/strSplit.java
+	
 	@Override
 	public PropertyFunction create(String uri) {
 		// TODO Auto-generated method stub
